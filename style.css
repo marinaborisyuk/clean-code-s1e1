@@ -13,7 +13,7 @@ body {
 .description-matrix-wrapper img {
   width: 100%;
 }
-.description-matrix-wrapper .more-inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -89,7 +89,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -119,7 +119,7 @@ li > label {
 li > input[type="text"] {
   width: 226px
 }
-button.delete img {
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
@@ -129,7 +129,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through
   color: #888;
 }
@@ -139,11 +139,10 @@ ul li input[type="text"] {
   display:none
 }
 
-ul li.edit-mode input[type="text"] {
+.edit-mode input[type="text"] {
   display:inline-block;
   width:224px
 }
-
-ul li.edit-mode label {
+.edit-mode label {
   display:none;
 }

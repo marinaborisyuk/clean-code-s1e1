@@ -5,14 +5,14 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.description-matrix-wrapper {
+.description-matrix__wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.description-matrix-wrapper img {
+.description-matrix__wrapper img {
   width: 100%;
 }
 
@@ -22,13 +22,13 @@ body {
 
 @media (max-width: 768px) {
 
-  .description-matrix-wrapper { 
+  .description-matrix__wrapper { 
     text-align: center;
   }
 
 }
 
-.center-main-page-element {
+.center-main-page__element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-row__wrapper {
   display: flex;
 }
 
